@@ -1,0 +1,4 @@
+fastmcp
+python-dotenv
+httpx
+git+https://github.com/segmentio/public-api-sdk-python.git
