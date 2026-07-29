@@ -1,0 +1,10 @@
+# Copy this file to .env and fill in real values. Never commit .env.
+
+# Required: Segment Public API token (Workspace Settings -> Access Management -> Tokens)
+SEGMENT_PUBLIC_API_TOKEN=sgp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Optional: Profile API token(s), needed only for get_profile_* tools.
+# Space-scoped, one per space:
+# SEGMENT_PROFILE_TOKEN_<space_id>=spa_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# Or a single default token for single-space prototyping:
+# SEGMENT_PROFILE_TOKEN=spa_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# editors / os
+.DS_Store
+.vscode/
+.idea/
+
+# exported data (server.py writes CSV/XLSX here by default)
+exports/
